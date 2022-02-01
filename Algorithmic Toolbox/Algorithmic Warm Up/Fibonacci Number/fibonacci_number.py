@@ -12,8 +12,15 @@ def fibonacci_number_naive(n):
 
 def fibonacci_number(n):
     assert 0 <= n <= 45
+    last = 0
+    last_second = 1
+    if n <= 1:
+        return n
 
-    type here
+    for i in range(n):
+        last, last_second = last_second, last + last_second
+
+    return last
 
 
 if __name__ == '__main__':

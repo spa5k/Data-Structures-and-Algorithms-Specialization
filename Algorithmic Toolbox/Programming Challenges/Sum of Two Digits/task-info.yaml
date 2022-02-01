@@ -66,6 +66,9 @@ files:
         a, b = map(int, input().split())
         print(sum_of_two_digits(a, b))
   learner_created: false
+- name: README.md
+  visible: true
+  learner_created: true
 feedback_link: https://www.coursera.org/learn/algorithmic-toolbox/programming/sLjtY/programming-assignment-1-sum-of-two-digits/discussions
 status: Unchecked
 feedback:
